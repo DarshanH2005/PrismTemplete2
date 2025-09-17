@@ -49,13 +49,13 @@
   display: flex;
   align-items: center;
   width: 100%;
-  gap: 20px;
+  gap: 15px !important;
 }
 
 .headerCell {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 4px !important;
   cursor: pointer;
   user-select: none;
   transition: color 0.2s ease;
@@ -112,6 +112,56 @@
   flex: 1;
   min-width: 0;
   justify-content: center;
+}
+
+.RefDateCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.HolidayListCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.RelaitonCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.SubCategoriesCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.DurationCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.ProgramNameCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.InstituteCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.CourseComencementDateCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.ExpectedDeliveryDateCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.AttratchmentCol {
+  flex: 1;
+  min-width: 0;
 }
 
 /* Header Separator */

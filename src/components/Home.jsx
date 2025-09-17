@@ -27,6 +27,27 @@ const Home = () => {
           <button className="home-button primary" onClick={() => navigate('/5')}>
             Go to /5
           </button>
+          <button className="home-button primary" onClick={() => navigate('/6')}>
+            Go to /6
+          </button>
+          <button className="home-button primary" onClick={() => navigate('/7')}>
+            Go to /7
+          </button>
+          <button className="home-button primary" onClick={() => navigate('/8')}>
+            Go to /8
+          </button>
+          <button className="home-button primary" onClick={() => navigate('/9')}>
+            Go to /9
+          </button>
+          <button className="home-button primary" onClick={() => navigate('/10')}>
+            Go to /10
+          </button>
+          <button className="home-button primary" onClick={() => navigate('/11')}>
+            Go to /11
+          </button>
+          <button className="home-button primary" onClick={() => navigate('/12')}>
+            Go to /12
+          </button>
         </div>
       </div>
     
