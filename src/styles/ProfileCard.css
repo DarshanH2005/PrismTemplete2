@@ -62,6 +62,8 @@
   align-items: center;
   gap: 6px; /* smaller gap between label and value */
   flex: 0 0 140px; /* reserve reasonable space but allow others to grow/shrink */
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .profile-section.designation::before {
@@ -96,13 +98,18 @@
 .profile-section.division {
   flex: 0 1 auto;
   align-items: flex-start;
-  padding-left: 16px;
+  padding-left: 50px;
+  padding-right: 40px;
   max-width: 600px;
 }
 
 .profile-section.division .section-label,
 .profile-section.division .section-value {
   text-align: left;
+}
+
+.profile-section.division .section-label {
+  margin-bottom: 5px;
 }
 
 .profile-section.division .section-value {
@@ -114,9 +121,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start; /* start from left */
   flex: 0 0 220px; /* give manager a stable starting width */
   padding: 8px 12px;
+  padding-left: 40px; /* increased left padding */
 }
 
 /* Apply truncation to long values to avoid horizontal overflow */
@@ -144,10 +152,14 @@
 }
 
 /* Explicitly ensure Manager column label/value align center and no extra margins */
-.profile-section.manager .section-label,
 .profile-section.manager .section-value {
-  text-align: center;
-  margin: 0;
+  text-align: left;
+  margin: 0 0 4px 0; /* small gap below value */
+}
+
+.profile-section.manager .section-label {
+  text-align: left;
+  margin: 0 0 5px 0; /* add bottom margin 5px */
 }
 
 /* Responsive Design */

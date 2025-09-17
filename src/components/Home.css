@@ -88,6 +88,35 @@
   margin-top: 32px;
 }
 
+.home-state-select {
+  margin: 24px auto 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.state-label {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.state-select {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  min-width: 220px;
+  font-family: "Samsung InterFace", Arial, sans-serif;
+}
+
+.state-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .feature-card {
   background: #f8fafc;
   padding: 24px;
