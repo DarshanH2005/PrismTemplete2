@@ -1,12 +1,12 @@
 import React from 'react';
 import Navbar from './Navbar';
-import Avatars from './Avatars';
+import UserProfileSection from './UserProfileSection';
 
 const LeaveReportPage5 = () => {
   return (
     <>
       <Navbar />
-      <Avatars />
+      <UserProfileSection />
     </>
   );
 };

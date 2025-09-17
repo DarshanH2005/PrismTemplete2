@@ -3,7 +3,7 @@ import "../styles/Avatar.css";
 import AvatarMkSvg from "../assets/avatar-mk.svg";
 import AvatarPhotoDefault from "../assets/Vector.jpg";
 
-const Avatar = ({ initials = 'MK', photo = null, size = 48, isOnline = true, onClick, className = '' }) => {
+const AvatarProfile = ({ initials = 'MK', photo = null, size = 48, isOnline = true, onClick, className = '' }) => {
   return (
     <div className={`avatar-frame ${className}`} style={{ width: size, height: size }} onClick={onClick}>
       <div className="avatar-image">
@@ -22,4 +22,4 @@ const Avatar = ({ initials = 'MK', photo = null, size = 48, isOnline = true, onC
   );
 };
 
-export default Avatar;
+export default AvatarProfile;

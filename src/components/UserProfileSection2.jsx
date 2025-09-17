@@ -5,7 +5,7 @@ import EmployeeProfile from './EmployeeProfile';
 import RequiredInfo2 from './RequiredInfo2';
 import TrainingVideos from './TrainingVideos';
 
-const Avatars2 = () => {
+const UserProfileSection2 = () => {
 	// Event handlers for all clickable components (kept local to this copy)
 	const handleBackClick = () => {
 		console.log("Back button clicked (w2)");
@@ -85,4 +85,4 @@ const Avatars2 = () => {
 	);
 };
 
-export default Avatars2;
+export default UserProfileSection2;
