@@ -1,0 +1,32 @@
+import React from 'react'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './components/Home'
+import LeaveReportPage from './components/LeaveReportPage'
+import LeaveReportPage2 from './components/LeaveReportPage2'
+import LeaveReportPage3 from './components/LeaveReportPage3'
+import LeaveReportPage4 from './components/LeaveReportPage4'
+import LeaveReportPage5 from './components/LeaveReportPage5'
+import LeaveReportPage11 from './components/LeaveReportPage11'
+import LeaveReportPage12 from './components/LeaveReportPage12'
+import LeaveReportPage13 from './components/LeaveReportPage13'
+import './index.css'
+
+export default function App() {
+  return (
+    <div className="app">
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/1" element={<LeaveReportPage />} />
+          <Route path="/2" element={<LeaveReportPage2 />} />
+          <Route path="/3" element={<LeaveReportPage3 />} />
+          <Route path="/4" element={<LeaveReportPage4 />} />
+          <Route path="/5" element={<LeaveReportPage5 />} />
+          <Route path="/11" element={<LeaveReportPage11 />} />
+          <Route path="/12" element={<LeaveReportPage12 />} />
+          <Route path="/13" element={<LeaveReportPage13 />} />
+        </Routes>
+      </Router>
+    </div>
+  )
+}
