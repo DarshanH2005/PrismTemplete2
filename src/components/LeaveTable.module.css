@@ -91,6 +91,7 @@
 .leaveTypeCol {
   flex: 1;
   min-width: 0;
+  padding-left: 30px;
 }
 
 .appliedDateCol {
@@ -225,6 +226,7 @@
 .dataCell.leaveTypeCol {
   flex: 1;
   min-width: 0;
+  padding-left: 30px;
 }
 
 .dataCell.appliedDateCol {

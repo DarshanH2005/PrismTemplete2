@@ -13,9 +13,11 @@ import LeaveTable9 from './LeaveTable9';
 import LeaveTable10 from './LeaveTable10';
 import LeaveTable11 from './LeaveTable11';
 import LeaveTable12 from './LeaveTable12';
+import LeaveTable from './LeaveTable';
 
 const VisaForm = () => {
   const location = useLocation();
+  const isRoute2 = location.pathname === '/2';
   const isRoute3 = location.pathname === '/3';
   const isRoute4 = location.pathname === '/4';
   const isRoute5 = location.pathname === '/5';
@@ -30,6 +32,11 @@ const VisaForm = () => {
   return (
     <div className="visa-form">
       <ApplyHeading />
+      {isRoute2 && (
+        <div style={{ marginTop: '24px' }}>
+          <LeaveTable />
+        </div>
+      )}
       {isRoute3 && (
         <div style={{ marginTop: '24px' }}>
           <LeaveTable3 />
