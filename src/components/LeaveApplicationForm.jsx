@@ -1,11 +1,11 @@
 import React from "react";
 import "../styles/RequiredInfo.css";
-import ViewPolicies from './ViewPolicies';
+import PolicyViewerButton from './PolicyViewerButton';
 import ClipboardIcon from '../assets/clipboard-green-24x26.svg';
 import InfoSmall from '../assets/info-small-18x19.svg';
-import VisaForm from './VisaForm';
+import LeaveFormContainer from './LeaveFormContainer';
 
-const RequiredInfo = ({ onClick, className = "" }) => {
+const LeaveApplicationForm = ({ onClick, className = "" }) => {
   return (
     <div className={`required-info-rectangle ${className}`}> 
       <div className="required-info-header">
@@ -19,10 +19,10 @@ const RequiredInfo = ({ onClick, className = "" }) => {
       </div>
       <div className="worklet-details-card">
         <div className="form-sections-container">
-          <VisaForm />
+          <LeaveFormContainer />
           <br /><br />
           <div style={{ marginTop: 8 }}>
-            <ViewPolicies />
+                    <PolicyViewerButton onClick={onClick} />
           </div>
           <br /><br />
         </div>
@@ -31,4 +31,4 @@ const RequiredInfo = ({ onClick, className = "" }) => {
   );
 };
 
-export default RequiredInfo;
+export default LeaveApplicationForm;

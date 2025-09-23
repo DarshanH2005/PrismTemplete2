@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import styles from './ViewPolicies.module.css';
+import styles from './PolicyViewerButton.module.css';
 import poliIcon from '../assets/poli.svg';
 
-const ViewPolicies = ({ onClick }) => {
+const PolicyViewerButton = ({ onClick }) => {
   const [active, setActive] = useState(false);
 
   const handleToggle = () => {
@@ -27,4 +27,4 @@ const ViewPolicies = ({ onClick }) => {
   );
 };
 
-export default ViewPolicies;
+export default PolicyViewerButton;

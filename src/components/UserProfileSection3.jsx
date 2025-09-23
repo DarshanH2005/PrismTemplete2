@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from './Header';
+import ApplicationHeader from './ApplicationHeader';
 import AvatarProfile from './AvatarProfile';
 import RequiredInfo3 from './RequiredInfo3';
 import '../styles/Avatars.css';
@@ -10,7 +10,7 @@ const UserProfileSection3 = () => {
       <div className="avatars-1 required-info-row">
         <div className="avatar-column required-info-column">
           <div className="header-wrapper">
-            <Header />
+            <ApplicationHeader />
           </div>
           <AvatarProfile />
         </div>

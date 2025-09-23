@@ -1,9 +1,9 @@
 import React from "react";
 import "../styles/RequiredInfo.css";
-import ViewPolicies from './ViewPolicies';
+import PolicyViewerButton from './PolicyViewerButton';
 import ClipboardIcon from '../assets/clipboard-green-24x26.svg';
 import InfoSmall from '../assets/info-small-18x19.svg';
-import VisaForm2 from './VisaForm2';
+import LeaveReportContainer2 from './LeaveReportContainer2';
 
 const RequiredInfo2 = ({ onClick, className = "" }) => {
   return (
@@ -19,10 +19,10 @@ const RequiredInfo2 = ({ onClick, className = "" }) => {
       </div>
       <div className="worklet-details-card">
         <div className="form-sections-container">
-          <VisaForm2 />
+          <LeaveReportContainer2 />
           <br /><br />
           <div style={{ marginTop: 8 }}>
-            <ViewPolicies />
+            <PolicyViewerButton />
           </div>
           <br /><br />
         </div>

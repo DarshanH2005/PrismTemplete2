@@ -1,9 +1,8 @@
 import React from "react";
 import "../styles/Avatars.css";
-import Header from './Header';
+import ApplicationHeader from './ApplicationHeader';
 import EmployeeProfile from './EmployeeProfile';
 import RequiredInfo2 from './RequiredInfo2';
-import TrainingVideos from './TrainingVideos';
 
 const UserProfileSection2 = () => {
 	// Event handlers for all clickable components (kept local to this copy)
@@ -60,7 +59,7 @@ const UserProfileSection2 = () => {
 
 	return (
 		<div className="avatars-container">
-			<Header
+			<ApplicationHeader
 				breadcrumb="My Workspace > Leave Summary"
 				title="Leave Summary -Report"
 				onBackClick={handleBackClick}
@@ -79,8 +78,6 @@ const UserProfileSection2 = () => {
 			/>
 
 			<RequiredInfo2 onClick={handleRequiredInfoClick} />
-
-			<TrainingVideos />
 		</div>
 	);
 };

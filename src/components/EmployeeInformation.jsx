@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/UserInfo.css";
 // RequiredInfo import removed - not used in this component
 
-const UserInfo = ({
+const EmployeeInformation = ({
   name,
   genId,
   email,
@@ -25,4 +25,4 @@ const UserInfo = ({
   );
 };
 
-export default UserInfo;
+export default EmployeeInformation;

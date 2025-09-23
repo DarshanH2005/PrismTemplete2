@@ -1,51 +1,12 @@
 import React from "react";
 import "../styles/Avatars.css";
-import Header from './Header';
+import ApplicationHeader from './ApplicationHeader';
 import EmployeeProfile from './EmployeeProfile';
-import RequiredInfo from './RequiredInfo';
-import TrainingVideos from './TrainingVideos';
+import LeaveApplicationForm from './LeaveApplicationForm';
+
 
 const UserProfileSection = () => {
-	// Event handlers for all clickable components (kept local to this copy)
-	const handleBackClick = () => {
-		console.log("Back button clicked (w2)");
-	};
-
-	const handleClockClick = () => {
-		console.log("Clock icon clicked (w2)");
-	};
-
-	const handleAvatarClick = () => {
-		console.log("Avatar clicked (w2)");
-	};
-
-	const handleNameClick = () => {
-		console.log("Name clicked (w2)");
-	};
-
-	const handleEmailClick = () => {
-		console.log("Email clicked (w2)");
-	};
-
-	const handleRequiredInfoClick = () => {
-		console.log("Required Information clicked (w2)");
-	};
-
-	const handleDesignationClick = () => {
-		console.log("Designation clicked (w2)");
-	};
-
-	const handleDivisionClick = () => {
-		console.log("Division clicked (w2)");
-	};
-
-	const handleLocationClick = () => {
-		console.log("Location clicked (w2)");
-	};
-
-	const handleManagerClick = () => {
-		console.log("Manager clicked (w2)");
-	};
+	
 
 	const employeeData = {
 		initials: "MK",
@@ -60,7 +21,7 @@ const UserProfileSection = () => {
 
 	return (
 		<div className="avatars-container">
-			<Header
+			<ApplicationHeader
 				breadcrumb="My Workspace > Leave Summary"
 				title="Leave Summary -Report"
 				onBackClick={handleBackClick}
@@ -78,9 +39,9 @@ const UserProfileSection = () => {
 				onManagerClick={handleManagerClick}
 			/>
 
-			<RequiredInfo onClick={handleRequiredInfoClick} />
+			<LeaveApplicationForm onClick={handleRequiredInfoClick} />
 
-			<TrainingVideos />
+			
 		</div>
 	);
 };

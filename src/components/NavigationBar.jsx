@@ -8,7 +8,7 @@ import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 // You can change this color to match your theme
 const menuIconColor = "#222"; // or '#1976d2' for blue accent
 
-const Navbar = () => {
+const NavigationBar = ({ className = "" }) => {
   return (
     <nav className="navbar">
       <div className="navbar-left">
@@ -262,4 +262,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavigationBar;

@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './Navbar';
+import NavigationBar from './NavigationBar';
 import UserProfileSection from './UserProfileSection';
 
 const LeaveReportPage6 = () => {
   return (
     <>
-      <Navbar />
+      <NavigationBar />
       <UserProfileSection />
     </>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/EmployeeProfile.css';
-import AvatarProfile from './AvatarProfile';
-import UserInfo from './UserInfo';
+import EmployeeAvatar from './EmployeeAvatar';
+import EmployeeInformation from './EmployeeInformation';
 import ProfileCard from './ProfileCard';
 
 const EmployeeProfile = ({
@@ -27,9 +27,9 @@ const EmployeeProfile = ({
 
   return (
     <div className={`employee-profile-section ${className}`}>
-      <AvatarProfile initials={initials} isOnline={isOnline} onClick={onAvatarClick} />
+      <EmployeeAvatar initials={initials} isOnline={isOnline} onClick={onAvatarClick} />
 
-      <UserInfo
+      <EmployeeInformation
         name={name}
         genId={genId}
         email={email}

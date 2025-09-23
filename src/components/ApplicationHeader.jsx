@@ -4,7 +4,7 @@ import '../styles/Header.css';
 import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-const Header = ({
+const ApplicationHeader = ({
   breadcrumb,
   title,
   onBackClick,
@@ -48,4 +48,4 @@ const Header = ({
   );
 };
 
-export default Header;
+export default ApplicationHeader;

@@ -115,7 +115,58 @@
   justify-content: center;
 }
 
-.RefDateCol {
+.RefDateCol,
+.refDateCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.holidayListCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.relationCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.subCategoriesCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.durationCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.programNameCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.instituteCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.courseCommencementCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.expectedDeliveryDateCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.attachmentCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.dateOfBirthCol {
   flex: 1;
   min-width: 0;
 }
@@ -252,6 +303,62 @@
   text-align: center;
   display: flex;
   justify-content: center;
+}
+
+.dataCell.refDateCol,
+.dataCell.RefDateCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.dataCell.holidayListCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.dataCell.relationCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.dataCell.subCategoriesCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.dataCell.durationCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.dataCell.programNameCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.dataCell.instituteCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.dataCell.courseCommencementCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.dataCell.expectedDeliveryDateCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.dataCell.attachmentCol {
+  flex: 1;
+  min-width: 0;
+}
+
+.dataCell.dateOfBirthCol {
+  flex: 1;
+  min-width: 0;
 }
 
 /* Responsive Design */

@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from './Navbar';
+import NavigationBar from './NavigationBar';
 import UserProfileSection from './UserProfileSection';
 
-const LeaveReportPage = () => {
+const LeaveReportView = () => {
   return (
     <>
-      <Navbar />
+      <NavigationBar />
       <UserProfileSection />
     </>
   );
 };
 
-export default LeaveReportPage;
+export default LeaveReportView;

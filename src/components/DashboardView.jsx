@@ -2,7 +2,7 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import './Home.css';
 
-const Home = () => {
+const DashboardView = () => {
   const navigate = useNavigate();
 
   return (
@@ -54,4 +54,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default DashboardView;

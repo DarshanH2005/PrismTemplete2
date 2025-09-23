@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './ApplyHeading.module.css';
+import styles from './LeaveApplicationHeader.module.css';
 
-const ApplyHeading = ({ className = '', onClick }) => {
+const LeaveApplicationHeader = ({ className = '', onClick }) => {
   return (
     <div className={`${styles.applyHeadingContainer} ${className}`} onClick={onClick}>
       <div className={styles.applyHeadingFrame}>
@@ -36,4 +36,4 @@ const ApplyHeading = ({ className = '', onClick }) => {
   );
 };
 
-export default ApplyHeading;
+export default LeaveApplicationHeader;
