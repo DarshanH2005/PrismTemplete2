@@ -7,7 +7,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 const ApplicationHeader = ({
   breadcrumb,
   title,
-  onBackClick,
+  onBackClick = null,
   onClockClick,
   showBackArrow = true,
   showClockIcon = true,

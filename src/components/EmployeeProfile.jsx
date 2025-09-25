@@ -6,12 +6,12 @@ import ProfileCard from './ProfileCard';
 
 const EmployeeProfile = ({
   employee,
-  onAvatarClick,
-  onNameClick,
-  onEmailClick,
-  onDesignationClick,
-  onDivisionClick,
-  onManagerClick,
+  onAvatarClick = null,
+  onNameClick = null,
+  onEmailClick = null,
+  onDesignationClick = null,
+  onDivisionClick = null,
+  onManagerClick = null,
   className = '',
 }) => {
   const {

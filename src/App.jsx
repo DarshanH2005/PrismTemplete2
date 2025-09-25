@@ -13,6 +13,9 @@ import LeaveReportPage9 from './components/LeaveReportPage9'
 import LeaveReportPage10 from './components/LeaveReportPage10'
 import LeaveReportPage11 from './components/LeaveReportPage11'
 import LeaveReportPage12 from './components/LeaveReportPage12'
+import LeaveReportPage13 from './components/LeaveReportPage13'
+import LeaveReportPage14 from './components/LeaveReportPage14'
+import LeaveReportPage15 from './components/LeaveReportPage15'
 import './index.css'
 
 export default function App() {
@@ -33,6 +36,9 @@ export default function App() {
           <Route path="/10" element={<LeaveReportPage10 />} />
           <Route path="/11" element={<LeaveReportPage11 />} />
           <Route path="/12" element={<LeaveReportPage12 />} />
+          <Route path="/13" element={<LeaveReportPage13 />} />
+          <Route path="/14" element={<LeaveReportPage14 />} />
+          <Route path="/15" element={<LeaveReportPage15 />} />
         </Routes>
       </Router>
     </div>

@@ -17,7 +17,7 @@ const LeaveFormContainer = () => {
   const tableConfig = getTableConfig(routeNumber);
   
   // Show table for routes 2-12
-  const shouldShowTable = routeNumber >= 2 && routeNumber <= 12;
+  const shouldShowTable = routeNumber >= 2 && routeNumber <= 15;
 
   return (
     <div className="visa-form">

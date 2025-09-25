@@ -5,7 +5,7 @@ import ClipboardIcon from '../assets/clipboard-green-24x26.svg';
 import InfoSmall from '../assets/info-small-18x19.svg';
 import LeaveFormContainer from './LeaveFormContainer';
 
-const LeaveApplicationForm = ({ onClick, className = "" }) => {
+const LeaveApplicationForm = ({ className = "" }) => {
   return (
     <div className={`required-info-rectangle ${className}`}> 
       <div className="required-info-header">
@@ -21,8 +21,9 @@ const LeaveApplicationForm = ({ onClick, className = "" }) => {
         <div className="form-sections-container">
           <LeaveFormContainer />
           <br /><br />
+          
           <div style={{ marginTop: 8 }}>
-                    <PolicyViewerButton onClick={onClick} />
+            <PolicyViewerButton />
           </div>
           <br /><br />
         </div>

@@ -48,6 +48,17 @@ const DashboardView = () => {
           <button className="home-button primary" onClick={() => navigate('/12')}>
             Go to /12
           </button>
+          <button className="home-button primary" onClick={() => navigate('/13')}>
+            Go to /13
+          </button>
+          <button className="home-button primary" onClick={() => navigate('/14')}>
+            Go to /14
+          </button>
+          <button className="home-button primary" onClick={() => navigate('/15')}>
+            Go to /15
+          </button>
+          
+
         </div>
       </div>
     

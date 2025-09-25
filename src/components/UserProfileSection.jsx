@@ -24,22 +24,13 @@ const UserProfileSection = () => {
 			<ApplicationHeader
 				breadcrumb="My Workspace > Leave Summary"
 				title="Leave Summary -Report"
-				onBackClick={handleBackClick}
-				onClockClick={handleClockClick}
 			/>
 
 			<EmployeeProfile
 				employee={employeeData}
-				onAvatarClick={handleAvatarClick}
-				onNameClick={handleNameClick}
-				onEmailClick={handleEmailClick}
-				onDesignationClick={handleDesignationClick}
-				onDivisionClick={handleDivisionClick}
-				onLocationClick={handleLocationClick}
-				onManagerClick={handleManagerClick}
 			/>
 
-			<LeaveApplicationForm onClick={handleRequiredInfoClick} />
+			<LeaveApplicationForm />
 
 			
 		</div>
