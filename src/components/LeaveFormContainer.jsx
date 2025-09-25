@@ -23,13 +23,13 @@ const LeaveFormContainer = () => {
     <div className="visa-form">
       <LeaveApplicationHeader />
       {shouldShowTable && (
-        <div style={{ marginTop: '24px' }}>
+        
           <LeaveTable 
             columns={tableConfig.columns}
             defaultData={tableConfig.defaultData}
             title="Leave List"
           />
-        </div>
+        
       )}
     </div>
   );

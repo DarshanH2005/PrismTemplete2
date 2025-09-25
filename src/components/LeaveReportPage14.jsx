@@ -9,10 +9,7 @@ const LeaveReportPage14 = () => {
     <>
       <NavigationBar />
       <UserProfileSection />
-      {/* Leave table for route 14 */}
-      <div style={{ padding: '0 16px' }}>
-        <LeaveTable {...getTableConfig(14)} />
-      </div>
+      
     </>
   );
 };
